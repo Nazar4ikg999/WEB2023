@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+.menu{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.menu>li{
+  font-size: 20px;
+  list-style: none;
+  
+}
+nav{
+  background-color: black;
+  box-shadow: 0 14px 5px rgba(0, 0, 0, 0.2);
+}
+footer{
+  box-shadow: 0 -10px 5px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  background-color:black;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.pr1{
+  display: flex;
+  justify-content: center;
+  padding-top: 40vh;
+  color: black;
+  font-size: 20px;
+}
+.lb {
+  display: flex;
+  justify-content: center;
+}
+.Lb-list {
+  padding-top: 30vh;
+}
+.lbNam{
+  padding-top: 10px;
+  color: black;
+  font-size: 25px;
+}
